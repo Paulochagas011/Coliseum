@@ -1,0 +1,84 @@
+
+.cabecalho{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.cabecalho li{
+    display: inline;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Rosario', sans-serif;
+}
+.cabecalho li:hover{
+    display: inline;
+    font-size: 18px;
+    padding: 10px;
+    color: #dd2803;
+    font-family: 'Rosario', sans-serif;
+    cursor: pointer;
+}
+.nav{
+    width: 30%;
+}
+.home-red {
+    color:#dd2803;
+}
+.logo {
+    width: 40%;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.banner{
+    background: url('imagens/high-angle-burgers-with-fries-sauce-and-beer-with-copy-space.jpg') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }  
+.banner-left-part{
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.banner-title{
+    font-family: 'rosario', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #000000;
+    padding: 50px 0 50px 40px;
+}
+.banner-paragraph{
+    font-family: 'rosario', sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    color: #dd2803;
+    padding: 20px 0 50px 40px;
+}
+.banner-btn{
+    width: 200px;
+    height: 60px;
+    background-color:#dd2803;
+    color: #fefefe;
+    border: none;
+    font-size: 18px;
+    margin: 10px 0 50px 40px;
+    font-family: 'rosario', sans-serif;
+}
+.banner-btn:hover{
+    width: 200px;
+    height: 60px;
+    background-color:#fefefe;
+    color: #dd2803;
+    border: none;
+    font-size: 20px;
+    margin: 10px 0 50px 40px;
+    font-family: 'rosario', sans-serif;
+    border: solid 3px #dd2803;
+    cursor: pointer;
+}
