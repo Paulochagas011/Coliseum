@@ -50,8 +50,9 @@
     font-family: 'rosario', sans-serif;
     font-size: 40px;
     font-weight: bolder;
-    color: #000000;
+    color: #fefefe;
     padding: 50px 0 50px 40px;
+    text-shadow: 0.1em 0.1em #000000
 }
 .banner-paragraph{
     font-family: 'rosario', sans-serif;
@@ -59,6 +60,7 @@
     font-weight: bolder;
     color: #dd2803;
     padding: 20px 0 50px 40px;
+    text-shadow: 0.1em 0.0em #000000
 }
 .banner-btn{
     width: 200px;
