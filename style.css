@@ -84,3 +84,16 @@
     border: solid 3px #dd2803;
     cursor: pointer;
 }
+.original-recipe{
+    height: 500px;
+    background-color: #f9f2ea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.original-recipe h1{
+    font-size: 80px;
+    color: #dd2803;
+    font-family: 'rosario', sans-serif;
+    font-weight: bolder;
+}
