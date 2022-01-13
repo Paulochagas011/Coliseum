@@ -133,20 +133,20 @@
     text-align: center;
     vertical-align: top;
     width: 300px;
-    width: 300px;
+    height: 250px;
     margin: 20px;
     box-sizing: border-box;
 }
 .all-time-favorites-img{
     width: 300px;
-    height: 300px;
+    height: 250px;
     margin:0;
 }
 .all-time-favorites-btn-div{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20 0 20 0;
+    padding: 100px 0 0 0;
 }
 .all-time-favorites-btn{
     width: 200px;
