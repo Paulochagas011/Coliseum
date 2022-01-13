@@ -1,4 +1,6 @@
-
+*{
+    margin: 0;
+}
 .cabecalho{
     display: flex;
     height: 100px;
@@ -90,10 +92,69 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .original-recipe h1{
     font-size: 80px;
     color: #dd2803;
     font-family: 'rosario', sans-serif;
+    text-transform: uppercase;
     font-weight: bolder;
+}
+.all-time-favorites{
+    height: 680px;
+    background-color: #ffffff;
+    border: 70px solid #f9f2ea;
+    margin: 0;
+}
+.all-time-favorites-h2 h2{
+    font-size: 40px;
+    font-family: 'rosario',sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.all-time-favorites-ul{
+    display: flex;
+    justify-content: center;
+}
+.all-time-favorites-ul p{
+    font-size: 22px;
+    font-family: 'rosario',sans-serif;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.all-time-favorites li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 300px;
+    width: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+.all-time-favorites-img{
+    width: 300px;
+    height: 300px;
+    margin:0;
+}
+.all-time-favorites-btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20 0 20 0;
+}
+.all-time-favorites-btn{
+    width: 200px;
+    height: 60px;
+    background-color:#dd2803;
+    color: #fefefe;
+    border: none;
+    font-size: 18px;
+    margin: 10px 0 50px 40px;
+    font-family: 'rosario', sans-serif;
 }
